@@ -1,6 +1,6 @@
 {
   "name": "d-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "d-index is a command that displays the official site list of dependent modules from package.json.",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/44x1carbon/d-index/issues",
+    "email": "44x1carbon@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/44x1carbon/d-index.git"
   }
 }
