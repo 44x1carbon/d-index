@@ -1,0 +1,13 @@
+head
+  title d-index
+body
+  h1 dependencies
+  ul
+    each val in dependencies
+      li
+        a(href=val.homepage, target='_brank') #{val.name}
+  h1 devDependencies
+  ul
+    each val in devDependencies
+      li
+        a(href=val.homepage, target='_brank') #{val.name}
